@@ -1127,6 +1127,11 @@ header .logo a {
  * menu toggle - (_layout.css)
  * ------------------------------------------------------------------- 
  */
+
+ .contact {
+	margin-left: 500px;
+}
+
 .menu-toggle {
 	float: left;
 	width: 40px;
