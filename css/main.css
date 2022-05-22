@@ -1099,9 +1099,9 @@ header .top-bar {
 	min-width: 220px;
 	min-height: 66px;
 	position: absolute;
-	left: 90px;
 	top: 0;
-	opacity: 0.7;
+	float: left;
+	opacity: 0.5;
 }
 header .logo {
 	float: left;
@@ -1285,22 +1285,22 @@ header .logo a {
  */
 @media only screen and (max-width:1024px) {
 	header .top-bar {
-		left: 60px;
+		left: 0px;
 	}
 }
 @media only screen and (max-width:768px) {
 	header .top-bar {
-		left: 50px;
+		left: 0px;
 	}
 }
 @media only screen and (max-width:600px) {
 	header .top-bar {
-		left: 35px;
+		left: 0px;
 	}
 }
 @media only screen and (max-width:400px) {
 	header .top-bar {
-		left: 25px;
+		left: 0px;
 	}
 }
 
